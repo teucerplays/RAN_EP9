@@ -1,0 +1,12 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Add LFS tracking for your binary files
+*.wld0 filter=lfs diff=lfs merge=lfs -text
+*.wld1 filter=lfs diff=lfs merge=lfs -text
+*.wld2 filter=lfs diff=lfs merge=lfs -text
+*.wld3 filter=lfs diff=lfs merge=lfs -text
+*.wld4 filter=lfs diff=lfs merge=lfs -text
+*.wld5 filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
