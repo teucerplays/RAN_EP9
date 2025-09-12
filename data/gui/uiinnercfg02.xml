@@ -2111,6 +2111,12 @@
 		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
 		<TEXTURE_POS X="233" Y="474" W="16" H="11" />
 	</CONTROL>
+	<CONTROL Local="Common" Id="NAME_DISPLAY_GM_TEXT_BOX">
+		<WINDOW_POS X="2" Y="2" W="16" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NAME_DISPLAY_GM_BOX">
+		<WINDOW_POS X="2" Y="2" W="16" H="11" />
+	</CONTROL>
 	<CONTROL Local="Common" Id="NAME_DISPLAY_PARTY_MEMBER">
 		<WINDOW_POS X="11" Y="2" W="11" H="11" />
 		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
