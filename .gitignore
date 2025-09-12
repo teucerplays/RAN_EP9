@@ -3,6 +3,8 @@
 /Ran Online
 /Logs
 /GMTool
+/Launcher.exe.WebView2
+/PortableGit
 EditorActivity.exe
 EditorBattlePass.exe
 EditorClassConst.exe
@@ -41,3 +43,4 @@ ServerSession.exe
 ServerSetting.exe
 WorldTool.exe
 GameEmulator.exe
+EditorCodex.exe
