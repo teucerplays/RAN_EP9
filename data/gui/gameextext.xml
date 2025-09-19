@@ -284,6 +284,10 @@
 <VALUE Lang="Common">This Account is blocked!</VALUE>
 <VALUE Lang="Common">Please inquire with  the GM</VALUE>
 </SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_GM_ONLY">
+<VALUE Lang="Common">Server is currently in GM-only mode!</VALUE>
+<VALUE Lang="Common">Only Game Masters can log in at this time.</VALUE>
+</SENTENSE>
 <SENTENSE Ver="1" Id="LOGINSTAGE_EXPIRED_USER">
 <VALUE Lang="Common">Time up for the log in Conformation!</VALUE>
 <VALUE Lang="Common">Please retry it again.</VALUE>
