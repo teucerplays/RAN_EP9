@@ -5167,6 +5167,11 @@
 <VALUE Lang="Common">Potion CP increased amount" shows increased amount of CP using potion.</VALUE>
 </SENTENSE>
 
+<!-- Combat Power Display -->
+<SENTENSE Ver="1" Id="BASIC_COMBAT_POWER_DISPLAY_TEXT">
+<VALUE Lang="Common">CP: --</VALUE>
+</SENTENSE>
+
 <SENTENSE Ver="1" Id="MODERN_CHARACTER_ADDITION_WINDOW_POINT_QUESTION_BUTTON_SENTENCE_1">
 <VALUE Lang="Common">Detail Information Item, Skill, Event, Q-Box Effect can be set in the Option Page.</VALUE>
 </SENTENSE>

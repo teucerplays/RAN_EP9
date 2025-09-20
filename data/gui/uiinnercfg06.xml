@@ -87,6 +87,12 @@
 	<CONTROL Local="Common" Id="BASIC_LEVEL_DISPLAY_TEXT">
 		<WINDOW_POS X="30" Y="60" W="50" H="15" />
 	</CONTROL>
+	
+	<!-- Combat Power Display (below level) -->
+	<CONTROL Local="Common" Id="BASIC_COMBAT_POWER_DISPLAY_TEXT">
+		<WINDOW_POS X="25" Y="78" W="380" H="15" />
+	</CONTROL>
+	
 <!-- HP Switch -->
  <CONTROL Local="Common" Id="PK_NOTIF_BACKGROUND_WINDOW">
 		<WINDOW_POS X="0" Y="0" W="410" H="354" />

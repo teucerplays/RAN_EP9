@@ -2243,6 +2243,11 @@
 		<WINDOW_POS X="23" Y="1" W="30" H="15" />
 	</CONTROL>
 	
+	<!-- Combat Power Display (below level) -->
+	<CONTROL Local="Common" Id="BASIC_COMBAT_POWER_DISPLAY_TEXT">
+		<WINDOW_POS X="15" Y="18" W="360" H="15" />
+	</CONTROL>
+	
 	<CONTROL Local="Common" Id="BASIC_REBORN_DISPLAY">
 		<WINDOW_POS X="62" Y="42" W="59" H="15" />
 		<TEXTURE SizeX="512" SizeY="512">interface_rb.dds</TEXTURE>
