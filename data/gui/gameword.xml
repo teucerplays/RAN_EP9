@@ -2674,6 +2674,40 @@
 <VALUE Lang="Common" Index="2">Skills</VALUE>
 </WORD>
 
+<WORD Ver="1" Id="TYRANNY_ENDING_SCENE_WINDOW_PAGE">
+<VALUE Lang="Common" Index="0">%s Information</VALUE>
+<VALUE Lang="Common" Index="1">Wear</VALUE>
+<VALUE Lang="Common" Index="2">Skills</VALUE>
+</WORD>
+
+<WORD Ver="1" Id="TYRANNY_ENDING_SCENE_TOP_KILLER_TITLE">
+<VALUE Lang="Common" Index="0">TOP KILLER</VALUE>
+</WORD>
+
+<WORD Ver="1" Id="TYRANNY_ENDING_SCENE_TOP_RESU_TITLE">
+<VALUE Lang="Common" Index="0">TOP RESU</VALUE>
+</WORD>
+
+<WORD Ver="1" Id="TYRANNY_ENDING_SCENE_TOP_HEAL_TITLE">
+<VALUE Lang="Common" Index="0">TOP HEAL</VALUE>
+</WORD>
+
+<WORD Ver="1" Id="TYRANNY_ENDING_SCENE_WINDOW_TITLE_KILLER">
+<VALUE Lang="Common" Index="0">Top Killer (%s)</VALUE>
+</WORD>
+
+<WORD Ver="1" Id="TYRANNY_ENDING_SCENE_WINDOW_TITLE_RESU">
+<VALUE Lang="Common" Index="0">Top Resu (%s)</VALUE>
+</WORD>
+
+<WORD Ver="1" Id="TYRANNY_ENDING_SCENE_WINDOW_TITLE_HEAL">
+<VALUE Lang="Common" Index="0">Top Heal (%s)</VALUE>
+</WORD>
+
+<WORD Ver="1" Id="TYRANNY_ENDING_SCENE_TOP_KILLER_COUNT">
+<VALUE Lang="Common" Index="0">Kill: %d</VALUE>
+</WORD>
+
 <WORD Ver="1" Id="RAN_ANOTHER_CHAR_WINDOW_STAT_STATIC">
 <VALUE Lang="Common" Index="0">Level</VALUE>
 <VALUE Lang="Common" Index="1">POW</VALUE>
@@ -2711,6 +2745,61 @@
 
 <WORD Ver="1" Id="RAN_ANOTHER_CHAR_WINDOW_STAT_STATIC_EX">
 <VALUE Lang="Common" Index="0">Reborn</VALUE>
+</WORD>
+
+<WORD Ver="1" Id="TYRANNY_ENDING_SCENE_WINDOW_STAT_STATIC">
+<VALUE Lang="Common" Index="0">Level</VALUE>
+<VALUE Lang="Common" Index="1">POW</VALUE>
+<VALUE Lang="Common" Index="2">DEX</VALUE>
+<VALUE Lang="Common" Index="3">INT</VALUE>
+<VALUE Lang="Common" Index="4">VIT</VALUE>
+<VALUE Lang="Common" Index="5">STM</VALUE>
+<VALUE Lang="Common" Index="6">skip</VALUE>
+<VALUE Lang="Common" Index="7">Min Attack</VALUE>
+<VALUE Lang="Common" Index="8">Max Attack</VALUE>
+<VALUE Lang="Common" Index="9">Defense</VALUE>
+<VALUE Lang="Common" Index="10">Melee</VALUE>
+<VALUE Lang="Common" Index="11">Shooting</VALUE>
+<VALUE Lang="Common" Index="12">Energy</VALUE>
+<VALUE Lang="Common" Index="13">Accuracy</VALUE>
+<VALUE Lang="Common" Index="14">Evasion</VALUE>
+<VALUE Lang="Common" Index="15">HP</VALUE>
+<VALUE Lang="Common" Index="16">MP</VALUE>
+<VALUE Lang="Common" Index="17">SP</VALUE>
+<VALUE Lang="Common" Index="18">Fire</VALUE>
+<VALUE Lang="Common" Index="19">Ice</VALUE>
+<VALUE Lang="Common" Index="20">Electric</VALUE>
+<VALUE Lang="Common" Index="21">Poison</VALUE>
+<VALUE Lang="Common" Index="22">Spirit</VALUE>
+<VALUE Lang="Common" Index="23">Name</VALUE>
+<VALUE Lang="Common" Index="24">Class</VALUE>
+<VALUE Lang="Common" Index="25">School</VALUE>
+<VALUE Lang="Common" Index="26">Guild</VALUE>
+<VALUE Lang="Common" Index="27">Whisper</VALUE>
+<VALUE Lang="Common" Index="28">Add Friend</VALUE>
+<VALUE Lang="Common" Index="29">Invite Party</VALUE>
+<VALUE Lang="Common" Index="30">Refresh</VALUE>
+<VALUE Lang="Common" Index="31">Title</VALUE>
+</WORD>
+
+<WORD Ver="1" Id="TYRANNY_ENDING_SCENE_WINDOW_STAT_STATIC_EX">
+<VALUE Lang="Common" Index="0">Reborn</VALUE>
+</WORD>
+
+<WORD Ver="1" Id="TYRANNY_ENDING_SCENE_RADIO_TOP_KILL">
+<VALUE Lang="Common" Index="0">Top Kill</VALUE>
+</WORD>
+
+<WORD Ver="1" Id="TYRANNY_ENDING_SCENE_RADIO_TOP_RESU">
+<VALUE Lang="Common" Index="0">Top Resu</VALUE>
+</WORD>
+
+<WORD Ver="1" Id="TYRANNY_ENDING_SCENE_RADIO_TOP_HEAL">
+<VALUE Lang="Common" Index="0">Top Heal</VALUE>
+</WORD>
+
+<WORD Ver="1" Id="TYRANNY_ENDING_SCENE_COMBO_FILTER">
+<VALUE Lang="Common" Index="0">Filter</VALUE>
 </WORD>
 
 <WORD Ver="1" Id="RAN_BIKE_COLOR_CHANGE_WINDOW">

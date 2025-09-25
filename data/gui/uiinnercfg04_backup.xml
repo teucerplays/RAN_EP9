@@ -1460,730 +1460,6 @@
 		<TEXTURE_POS X="237" Y="392" W="15" H="15" />
 	</CONTROL>
 	
-	<!-- TyrannyEndingScene Character Info View GUI Definitions -->
-	<!-- Main Window Container - Overall window size and position -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_CHAR_WINDOW">
-		<WINDOW_POS X="112" Y="84" W="780" H="490" />
-	</CONTROL>
-	
-	<!-- Tab Button - COMMENTED OUT: "Wear" tab for character display (currently disabled) -->
-	<!-- <CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_TAB">
-		<WINDOW_POS X="4" Y="23" W="96" H="20" />
-	</CONTROL> -->
-	
-	<!-- Menu Buttons at Top Center - Using gui_color_select_button.dds -->
-	<!-- Top Kill Button -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_BUTTON_TOP_KILL_DEFAULT">
-		<WINDOW_POS X="76" Y="-19" W="100" H="20" />
-		<TEXTURE SizeX="128" SizeY="128">gui_color_select_button.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="84" W="122" H="42" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_BUTTON_TOP_KILL_OVER">
-		<WINDOW_POS X="0" Y="0" W="100" H="20" />
-		<TEXTURE SizeX="128" SizeY="128">gui_color_select_button.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="42" W="122" H="42" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_BUTTON_TOP_KILL_CLICK">
-		<WINDOW_POS X="0" Y="0" W="100" H="20" />
-		<TEXTURE SizeX="128" SizeY="128">gui_color_select_button.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="84" W="122" H="42" />
-	</CONTROL>
-	
-	<!-- Top Resu Button -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_BUTTON_TOP_RESU_DEFAULT">
-		<WINDOW_POS X="252" Y="-19" W="100" H="20" />
-		<TEXTURE SizeX="128" SizeY="128">gui_color_select_button.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="84" W="122" H="42" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_BUTTON_TOP_RESU_OVER">
-		<WINDOW_POS X="0" Y="0" W="100" H="20" />
-		<TEXTURE SizeX="128" SizeY="128">gui_color_select_button.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="42" W="122" H="42" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_BUTTON_TOP_RESU_CLICK">
-		<WINDOW_POS X="0" Y="0" W="100" H="20" />
-		<TEXTURE SizeX="128" SizeY="128">gui_color_select_button.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="84" W="122" H="42" />
-	</CONTROL>
-	
-	<!-- Top Heal Button -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_BUTTON_TOP_HEAL_DEFAULT">
-		<WINDOW_POS X="428" Y="-19" W="100" H="20" />
-		<TEXTURE SizeX="128" SizeY="128">gui_color_select_button.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="84" W="112" H="42" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_BUTTON_TOP_HEAL_OVER">
-		<WINDOW_POS X="0" Y="0" W="100" H="20" />
-		<TEXTURE SizeX="128" SizeY="128">gui_color_select_button.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="42" W="122" H="42" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_BUTTON_TOP_HEAL_CLICK">
-		<WINDOW_POS X="0" Y="0" W="100" H="20" />
-		<TEXTURE SizeX="128" SizeY="128">gui_color_select_button.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="84" W="122" H="42" />
-	</CONTROL>
-	
-	<!-- Basic Text Button Template -->
-	<!-- <CONTROL Local="Common" Id="BASIC_TEXT_BUTTON19">
-		<WINDOW_POS X="0" Y="0" W="100" H="25" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="100" H="25" />
-	</CONTROL> -->
-	
-	<!-- Combo Box Filter -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_COMBO_FILTER">
-		<WINDOW_POS X="604" Y="-18" W="100" H="25" />
-		<TEXTURE SizeX="128" SizeY="128">gui_color_select_button.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="100" H="25" />
-	</CONTROL>
-	
-	<!-- Combo Box Filter Rollover -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_COMBO_FILTER_ROLLOVER">
-		<WINDOW_POS X="604" Y="-5" W="100" H="100" />
-	</CONTROL>
-	
-	<!-- Menu Region - Contains buttons and combo box -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_MENU_REGION">
-		<WINDOW_POS X="4" Y="-20" W="765" H="25" />
-		<TEXTURE SizeX="480" SizeY="800">SG_BANNER.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="10" H="10" />
-	</CONTROL>
-	
-	<!-- Main Content Region - Contains all character info and stats -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_CHAR_REGION_WINDOW">
-		<WINDOW_POS X="4" Y="45" W="770" H="300" />
-	
-	</CONTROL>
-	
-	<!-- Region Border - Visual border around the main content area -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_CHAR_REGION_LINE">
-		<WINDOW_POS X="0" Y="30" W="800" H="300" />
-	</CONTROL>
-	
-	<!-- Left Side - Character Display Areas -->
-	<!-- Character Render Area - 3D character model display -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_REGION">
-		<WINDOW_POS X="4" Y="21" W="253" H="339" />
-	</CONTROL>
-	<!-- Check/Validation Area - Additional character info display -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_CHECK_REGION">
-		<WINDOW_POS X="4" Y="359" W="253" H="80" />
-	</CONTROL>
-	
-	<!-- Right Side - Statistics Display Areas - COMMENTED OUT: Statistics removed to focus on character display -->
-	<!--
-	Level Information - Character level display
-	-->
-	
-	<!-- Bottom Action Buttons - COMMENTED OUT: Buttons removed to give more space for character rendering -->
-	<!--
-	-->
-	
-	<!-- Item Slots - COMMENTED OUT: Equipment slots removed to give more space for character rendering -->
-	<!--
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_ITEMSLOT_RING1">
-		<WINDOW_POS X="116" Y="48" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">charinven.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="32" H="32" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_ITEMSLOT_RING2">
-		<WINDOW_POS X="152" Y="48" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">charinven.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="32" H="32" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_ITEMSLOT_ACCESSORY1">
-		<WINDOW_POS X="188" Y="48" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">charinven.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="32" H="32" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_ITEMSLOT_ACCESSORY2">
-		<WINDOW_POS X="224" Y="48" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">charinven.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="32" H="32" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_ITEMSLOT_EARRINGS1">
-		<WINDOW_POS X="8" Y="84" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">charinven.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="32" H="32" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_ITEMSLOT_EARRINGS2">
-		<WINDOW_POS X="44" Y="84" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">charinven.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="32" H="32" />
-	</CONTROL>
-	-->
-	
-	<!-- Top Killer Banner - Achievement banner above character render -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_TOP_KILLER_BANNER">
-		<WINDOW_POS X="4" Y="8" W="253" H="60" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="256" H="60" />
-	</CONTROL>
-	
-	<!-- Top Killer Title Text -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_TOP_KILLER_TITLE">
-		<WINDOW_POS X="4" Y="15" W="253" H="20" />
-	</CONTROL>
-	
-	<!-- Kill Count Text -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_TOP_KILLER_COUNT">
-		<WINDOW_POS X="4" Y="55" W="253" H="20" />
-	</CONTROL>
-
-	<!-- MP Panel Top Killer Banner -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_TOP_KILLER_BANNER_MP">
-		<WINDOW_POS X="260" Y="8" W="253" H="60" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="256" H="60" />
-	</CONTROL>
-	
-	<!-- MP Panel Top Killer Title -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_TOP_KILLER_TITLE_MP">
-		<WINDOW_POS X="260" Y="15" W="253" H="20" />
-	</CONTROL>
-	
-	<!-- MP Panel Kill Count Text -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_TOP_KILLER_COUNT_MP">
-		<WINDOW_POS X="260" Y="55" W="253" H="20" />
-	</CONTROL>
-
-	<!-- PHX Panel Top Killer Banner -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_TOP_KILLER_BANNER_PHX">
-		<WINDOW_POS X="516" Y="8" W="253" H="60" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="256" H="60" />
-	</CONTROL>
-	
-	<!-- PHX Panel Top Killer Title -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_TOP_KILLER_TITLE_PHX">
-		<WINDOW_POS X="516" Y="15" W="253" H="20" />
-	</CONTROL>
-	
-	<!-- PHX Panel Kill Count Text -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_TOP_KILLER_COUNT_PHX">
-		<WINDOW_POS X="516" Y="55" W="253" H="20" />
-	</CONTROL>
-
-	<!-- School-Specific Banners -->
-	<!-- SG School Banner -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_BANNER_SG">
-		<WINDOW_POS X="4" Y="8" W="253" H="426" />
-		<TEXTURE SizeX="480" SizeY="800">SG_BANNER.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="480" H="800" />
-	</CONTROL>
-
-	<!-- MP School Banner -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_BANNER_MP">
-		<WINDOW_POS X="260" Y="8" W="253" H="426" />
-		<TEXTURE SizeX="480" SizeY="800">MP_BANNER.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="480" H="800" />
-	</CONTROL>
-
-	<!-- PHX School Banner -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_BANNER_PHX">
-		<WINDOW_POS X="516" Y="8" W="253" H="426" />
-		<TEXTURE SizeX="480" SizeY="800">PHX_BANNER.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="480" H="800" />
-	</CONTROL>
-
-	<!-- School-Specific Titles -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_TITLE_SG">
-		<WINDOW_POS X="4" Y="25" W="253" H="20" />
-	</CONTROL>
-
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_TITLE_MP">
-		<WINDOW_POS X="260" Y="25" W="253" H="20" />
-	</CONTROL>
-
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_TITLE_PHX">
-		<WINDOW_POS X="516" Y="25" W="253" H="20" />
-	</CONTROL>
-
-	<!-- School-Specific Counts -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_COUNT_SG">
-		<WINDOW_POS X="4" Y="45" W="253" H="20" />
-	</CONTROL>
-
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_COUNT_MP">
-		<WINDOW_POS X="260" Y="45" W="253" H="20" />
-	</CONTROL>
-
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_COUNT_PHX">
-		<WINDOW_POS X="516" Y="45" W="253" H="20" />
-	</CONTROL>
-
-	<!-- Render Region and Controls -->
-	<!-- 3D Character Render Area - SG Panel -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_RENDER_REGION">
-		<WINDOW_POS X="4" Y="68" W="253" H="279" />
-	</CONTROL>
-
-	<!-- 3D Character Render Area - MP Panel -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_RENDER_REGION_MP">
-		<WINDOW_POS X="260" Y="68" W="253" H="279" />
-	</CONTROL>
-
-	<!-- 3D Character Render Area - PHX Panel -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_RENDER_REGION_PHX">
-		<WINDOW_POS X="516" Y="68" W="253" H="279" />
-	</CONTROL>
-	
-	<!-- Character Rotation Controls - Left Arrow Button -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_LEFT_DEFAULT">
-		<WINDOW_POS X="48" Y="306" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="52" H="71" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_LEFT_OVER">
-		<WINDOW_POS X="0" Y="0" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="105" Y="0" W="52" H="71" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_LEFT_CLICK">
-		<WINDOW_POS X="0" Y="0" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="71" W="52" H="71" />
-	</CONTROL>
-	<!-- Character Rotation Controls - Right Arrow Button -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_RIGHT_DEFAULT">
-		<WINDOW_POS X="185" Y="306" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="52" Y="0" W="50" H="71" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_RIGHT_OVER">
-		<WINDOW_POS X="0" Y="0" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="157" Y="0" W="50" H="71" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_RIGHT_CLICK">
-		<WINDOW_POS X="0" Y="0" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="52" Y="71" W="50" H="71" />
-	</CONTROL>
-
-	<!-- MP Panel Rotation Controls - Left Arrow Button -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_LEFT_DEFAULT_MP">
-		<WINDOW_POS X="304" Y="306" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="52" H="71" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_LEFT_OVER_MP">
-		<WINDOW_POS X="0" Y="0" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="105" Y="0" W="52" H="71" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_LEFT_CLICK_MP">
-		<WINDOW_POS X="0" Y="0" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="71" W="52" H="71" />
-	</CONTROL>
-	<!-- MP Panel Rotation Controls - Right Arrow Button -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_RIGHT_DEFAULT_MP">
-		<WINDOW_POS X="441" Y="306" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="52" Y="0" W="50" H="71" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_RIGHT_OVER_MP">
-		<WINDOW_POS X="0" Y="0" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="157" Y="0" W="50" H="71" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_RIGHT_CLICK_MP">
-		<WINDOW_POS X="0" Y="0" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="52" Y="71" W="50" H="71" />
-	</CONTROL>
-
-	<!-- PHX Panel Rotation Controls - Left Arrow Button -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_LEFT_DEFAULT_PHX">
-		<WINDOW_POS X="560" Y="306" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="0" W="52" H="71" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_LEFT_OVER_PHX">
-		<WINDOW_POS X="0" Y="0" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="105" Y="0" W="52" H="71" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_LEFT_CLICK_PHX">
-		<WINDOW_POS X="0" Y="0" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="0" Y="71" W="52" H="71" />
-	</CONTROL>
-	<!-- PHX Panel Rotation Controls - Right Arrow Button -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_RIGHT_DEFAULT_PHX">
-		<WINDOW_POS X="697" Y="306" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="52" Y="0" W="50" H="71" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_RIGHT_OVER_PHX">
-		<WINDOW_POS X="0" Y="0" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="157" Y="0" W="50" H="71" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_ARROW_TURN_RIGHT_CLICK_PHX">
-		<WINDOW_POS X="0" Y="0" W="26" H="35" />
-		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
-		<TEXTURE_POS X="52" Y="71" W="50" H="71" />
-	</CONTROL>
-
-	<!-- Character Details Text Controls - Character information display -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_BADGE_VALUE">
-		<WINDOW_POS X="8" Y="360" W="120" H="15" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_NAME_VALUE">
-		<WINDOW_POS X="8" Y="375" W="120" H="15" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_CLASS_VALUE">
-		<WINDOW_POS X="8" Y="390" W="120" H="15" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_SCHOOL_VALUE">
-		<WINDOW_POS X="8" Y="405" W="120" H="15" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_GUILD_VALUE">
-		<WINDOW_POS X="8" Y="420" W="120" H="15" />
-	</CONTROL>
-
-	<!-- MP Panel Character Details -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_BADGE_VALUE_MP">
-		<WINDOW_POS X="264" Y="360" W="120" H="15" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_NAME_VALUE_MP">
-		<WINDOW_POS X="264" Y="375" W="120" H="15" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_CLASS_VALUE_MP">
-		<WINDOW_POS X="264" Y="390" W="120" H="15" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_SCHOOL_VALUE_MP">
-		<WINDOW_POS X="264" Y="405" W="120" H="15" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_GUILD_VALUE_MP">
-		<WINDOW_POS X="264" Y="420" W="120" H="15" />
-	</CONTROL>
-
-	<!-- PHX Panel Character Details -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_BADGE_VALUE_PHX">
-		<WINDOW_POS X="520" Y="360" W="120" H="15" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_NAME_VALUE_PHX">
-		<WINDOW_POS X="520" Y="375" W="120" H="15" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_CLASS_VALUE_PHX">
-		<WINDOW_POS X="520" Y="390" W="120" H="15" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_SCHOOL_VALUE_PHX">
-		<WINDOW_POS X="520" Y="405" W="120" H="15" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_WINDOW_STAT_4_GUILD_VALUE_PHX">
-		<WINDOW_POS X="520" Y="420" W="120" H="15" />
-	</CONTROL>
-
-	<!-- School and Class Icons - Character school and class visual indicators -->
-	<!-- School Icons (Top) -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_SCHOOL_WINDOW_SM">
-		<WINDOW_POS X="200" Y="360" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="260" Y="264" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_SCHOOL_WINDOW_HA">
-		<WINDOW_POS X="200" Y="360" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="290" Y="264" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_SCHOOL_WINDOW_BH">
-		<WINDOW_POS X="200" Y="360" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="320" Y="264" W="30" H="30" />
-	</CONTROL>
-
-	<!-- MP Panel School Icons -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_SCHOOL_WINDOW_SM_MP">
-		<WINDOW_POS X="456" Y="360" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="260" Y="264" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_SCHOOL_WINDOW_HA_MP">
-		<WINDOW_POS X="456" Y="360" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="290" Y="264" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_SCHOOL_WINDOW_BH_MP">
-		<WINDOW_POS X="456" Y="360" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="320" Y="264" W="30" H="30" />
-	</CONTROL>
-
-	<!-- PHX Panel School Icons -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_SCHOOL_WINDOW_SM_PHX">
-		<WINDOW_POS X="712" Y="360" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="260" Y="264" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_SCHOOL_WINDOW_HA_PHX">
-		<WINDOW_POS X="712" Y="360" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="290" Y="264" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_SCHOOL_WINDOW_BH_PHX">
-		<WINDOW_POS X="712" Y="360" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="320" Y="264" W="30" H="30" />
-	</CONTROL>
-
-	<!-- Class Icons (Bottom) -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_BRAWLER_MALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="290" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SWORDMAN_MALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="230" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_ARCHER_FEMALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="260" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SHAMAN_FEMALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="320" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_EXTREME_MALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="200" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_EXTREME_FEMALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="200" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_BRAWLER_FEMALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="290" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_ARCHER_MALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="260" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SHAMAN_MALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="320" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SCIENTIST_MALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="350" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SCIENTIST_FEMALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="350" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_ASSASSIN_MALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
-		<TEXTURE_POS X="100" Y="0" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_ASSASSIN_FEMALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
-		<TEXTURE_POS X="100" Y="30" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_TRICKER_MALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
-		<TEXTURE_POS X="100" Y="60" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_TRICKER_FEMALE">
-		<WINDOW_POS X="200" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
-		<TEXTURE_POS X="100" Y="90" W="30" H="30" />
-	</CONTROL>
-
-	<!-- MP Panel Class Icons -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_BRAWLER_MALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="290" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SWORDMAN_MALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="230" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_ARCHER_FEMALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="260" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SHAMAN_FEMALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="320" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_EXTREME_MALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="350" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_EXTREME_FEMALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="380" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_BRAWLER_FEMALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="290" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SWORDMAN_FEMALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="230" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_ARCHER_MALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="260" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SHAMAN_MALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="320" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SCIENTIST_MALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="350" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SCIENTIST_FEMALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="380" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_ASSASSIN_MALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="410" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_ASSASSIN_FEMALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="440" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_TRICKER_MALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
-		<TEXTURE_POS X="70" Y="60" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_TRICKER_FEMALE_MP">
-		<WINDOW_POS X="456" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
-		<TEXTURE_POS X="100" Y="60" W="30" H="30" />
-	</CONTROL>
-
-	<!-- PHX Panel Class Icons -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_BRAWLER_MALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="290" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SWORDMAN_MALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="230" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_ARCHER_FEMALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="260" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SHAMAN_FEMALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="320" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_EXTREME_MALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="350" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_EXTREME_FEMALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="380" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_BRAWLER_FEMALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="290" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SWORDMAN_FEMALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="230" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_ARCHER_MALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="260" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SHAMAN_MALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="320" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SCIENTIST_MALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="350" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_SCIENTIST_FEMALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="380" Y="324" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_ASSASSIN_MALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="410" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_ASSASSIN_FEMALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
-		<TEXTURE_POS X="440" Y="294" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_TRICKER_MALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
-		<TEXTURE_POS X="70" Y="60" W="30" H="30" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_INFO_CHARACTER_CLASS_TRICKER_FEMALE_PHX">
-		<WINDOW_POS X="712" Y="400" W="32" H="32" />
-		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
-		<TEXTURE_POS X="100" Y="60" W="30" H="30" />
-	</CONTROL>
-
-	
-	<!-- Additional UI Elements - Scroll arrows for character display -->
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_LOWER_ARROW">
-		<WINDOW_POS X="0" Y="0" W="15" H="15" />
-		<TEXTURE SizeX="512" SizeY="512">charinven.dds</TEXTURE>
-		<TEXTURE_POS X="253" Y="392" W="15" H="15" />
-	</CONTROL>
-	<CONTROL Local="Common" Id="TYRANNY_ENDING_SCENE_WEAR_UPPER_ARROW">
-		<WINDOW_POS X="0" Y="0" W="15" H="15" />
-		<TEXTURE SizeX="512" SizeY="512">charinven.dds</TEXTURE>
-		<TEXTURE_POS X="237" Y="392" W="15" H="15" />
-	</CONTROL>
-	
 	
 	
 		<CONTROL Local="Common" Id="EP9_VIEW_CHARACTER_RENDER_SETTING_STATIC_PART_HEAD">
@@ -4817,7 +4093,7 @@
 		<WINDOW_POS X="273" Y="468" W="64" H="19" />
 	</CONTROL>
 	
-	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_BACK">
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_BACK"> 
 		<WINDOW_POS X="0" Y="0" W="290" H="41" />
 	</CONTROL>
 	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_IMAGE">
@@ -7240,7 +6516,7 @@
 	
 	<!-- personal lock info -->
 	<CONTROL Local="Common" Id="PERSONAL_LOCK_INFO">
-		<WINDOW_POS X="0" Y="550" W="233" H="41" />
+		<WINDOW_POS X="0" Y="550" W="233" H="41" />		
 	</CONTROL>
 	<CONTROL Local="Common" Id="PERSONAL_LOCK_IMAGE_BASE">
 		<WINDOW_POS X="0" Y="0" W="233" H="41" />
@@ -7881,7 +7157,7 @@
 		<WINDOW_POS X="4" Y="25" W="379" H="325" />
 	</CONTROL>
 	<CONTROL Local="Common" Id="MODERN_FRIEND_WINDOW_FRIEND_FRIEND_ROW_TOP">
-		<WINDOW_POS X="4" Y="24" W="379" H="26" />
+		<WINDOW_POS X="4" Y="24" W="379" H="26" /> 
 	</CONTROL>
 	<CONTROL Local="Common" Id="MODERN_FRIEND_WINDOW_FRIEND_FRIEND_ROW_BOTTOM">
 		<WINDOW_POS X="4" Y="299" W="379" H="51" />
@@ -7931,7 +7207,7 @@
 		<WINDOW_POS X="4" Y="49" W="379" H="275" />
 	</CONTROL>	
 	<CONTROL Local="Common" Id="MODERN_FRIEND_WINDOW_FRIEND_BLOCK_ROW_TOP">
-		<WINDOW_POS X="4" Y="24" W="379" H="26" />
+		<WINDOW_POS X="4" Y="24" W="379" H="26" /> 
 	</CONTROL>
 	<CONTROL Local="Common" Id="MODERN_FRIEND_WINDOW_FRIEND_BLOCK_ROW_BOTTOM">
 		<WINDOW_POS X="4" Y="324" W="379" H="26" />
@@ -8261,6 +7537,359 @@
 	<CONTROL Local="Common" Id="PLAY_STATS_MULTIKILL_STREAK_STATIC_01">
 		<WINDOW_POS X="9" Y="353" W="100" H="20" />
 	</CONTROL>
+	
+	<!-- Tyranny Winner Display Window - FLAT STRUCTURE like RAN_INFO_CHARACTER_WINDOW -->
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_DISPLAY_WINDOW">
+		<WINDOW_POS X="100" Y="50" W="800" H="600" />
+		<TEXTURE SizeX="1024" SizeY="768">Interface_Main.dds</TEXTURE>
+	</CONTROL>
+	
+	<!-- Panel 0 - Top Kill (exactly like reference) -->
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_PANEL_0">
+		<WINDOW_POS X="20" Y="80" W="180" H="480" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CHAR_RENDER_0">
+		<WINDOW_POS X="24" Y="88" W="172" H="200" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_LEFT_0">
+		<WINDOW_POS X="68" Y="260" W="26" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="52" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_RIGHT_0">
+		<WINDOW_POS X="118" Y="260" W="26" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="52" Y="0" W="50" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_EMBLEM_0">
+		<WINDOW_POS X="28" Y="300" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="260" Y="264" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CLASS_ICON_0">
+		<WINDOW_POS X="28" Y="335" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="230" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_TITLE_0">
+		<WINDOW_POS X="28" Y="370" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_STAT_0">
+		<WINDOW_POS X="28" Y="390" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_NAME_0">
+		<WINDOW_POS X="28" Y="410" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CLASS_0">
+		<WINDOW_POS X="28" Y="430" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_0">
+		<WINDOW_POS X="28" Y="450" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_GUILD_0">
+		<WINDOW_POS X="28" Y="470" W="35" H="13" />
+	</CONTROL>
+	
+	<!-- Panel 1 - Most Death -->
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_PANEL_1">
+		<WINDOW_POS X="220" Y="80" W="180" H="480" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CHAR_RENDER_1">
+		<WINDOW_POS X="224" Y="88" W="172" H="200" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_LEFT_1">
+		<WINDOW_POS X="268" Y="260" W="26" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="52" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_RIGHT_1">
+		<WINDOW_POS X="318" Y="260" W="26" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="52" Y="0" W="50" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_EMBLEM_1">
+		<WINDOW_POS X="228" Y="300" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="290" Y="264" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CLASS_ICON_1">
+		<WINDOW_POS X="228" Y="335" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="260" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_TITLE_1">
+		<WINDOW_POS X="228" Y="370" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_STAT_1">
+		<WINDOW_POS X="228" Y="390" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_NAME_1">
+		<WINDOW_POS X="228" Y="410" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CLASS_1">
+		<WINDOW_POS X="228" Y="430" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_1">
+		<WINDOW_POS X="228" Y="450" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_GUILD_1">
+		<WINDOW_POS X="228" Y="470" W="35" H="13" />
+	</CONTROL>
+	
+	<!-- Panel 2 - Top Healer -->
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_PANEL_2">
+		<WINDOW_POS X="420" Y="80" W="180" H="480" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CHAR_RENDER_2">
+		<WINDOW_POS X="424" Y="88" W="172" H="200" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_LEFT_2">
+		<WINDOW_POS X="468" Y="260" W="26" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="52" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_RIGHT_2">
+		<WINDOW_POS X="518" Y="260" W="26" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="52" Y="0" W="50" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_EMBLEM_2">
+		<WINDOW_POS X="428" Y="300" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="320" Y="264" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CLASS_ICON_2">
+		<WINDOW_POS X="428" Y="335" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="320" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_TITLE_2">
+		<WINDOW_POS X="428" Y="370" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_STAT_2">
+		<WINDOW_POS X="428" Y="390" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_NAME_2">
+		<WINDOW_POS X="428" Y="410" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CLASS_2">
+		<WINDOW_POS X="428" Y="430" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_2">
+		<WINDOW_POS X="428" Y="450" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_GUILD_2">
+		<WINDOW_POS X="428" Y="470" W="35" H="13" />
+	</CONTROL>
+	
+	<!-- Panel 3 - Top Resu -->
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_PANEL_3">
+		<WINDOW_POS X="620" Y="80" W="180" H="480" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CHAR_RENDER_3">
+		<WINDOW_POS X="624" Y="88" W="172" H="200" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_LEFT_3">
+		<WINDOW_POS X="668" Y="260" W="26" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="52" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_RIGHT_3">
+		<WINDOW_POS X="718" Y="260" W="26" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="52" Y="0" W="50" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_EMBLEM_3">
+		<WINDOW_POS X="628" Y="300" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="260" Y="264" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CLASS_ICON_3">
+		<WINDOW_POS X="628" Y="335" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="290" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_TITLE_3">
+		<WINDOW_POS X="628" Y="370" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_STAT_3">
+		<WINDOW_POS X="628" Y="390" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_NAME_3">
+		<WINDOW_POS X="628" Y="410" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CLASS_3">
+		<WINDOW_POS X="628" Y="430" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_3">
+		<WINDOW_POS X="628" Y="450" W="35" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_GUILD_3">
+		<WINDOW_POS X="628" Y="470" W="35" H="13" />
+	</CONTROL>
+	
+	<!-- School Emblems - SEPARATE CONTROLS -->
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_EMBLEM_0">
+		<WINDOW_POS X="30" Y="90" W="32" H="22" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="182" Y="474" W="16" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_EMBLEM_1">
+		<WINDOW_POS X="230" Y="90" W="32" H="22" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="199" Y="474" W="16" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_EMBLEM_2">
+		<WINDOW_POS X="430" Y="90" W="32" H="22" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="216" Y="474" W="16" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_EMBLEM_3">
+		<WINDOW_POS X="630" Y="90" W="32" H="22" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="182" Y="474" W="16" H="11" />
+	</CONTROL>
+	
+	<!-- Statistics Titles -->
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_TITLE_0">
+		<WINDOW_POS X="20" Y="120" W="180" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_TITLE_1">
+		<WINDOW_POS X="220" Y="120" W="180" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_TITLE_2">
+		<WINDOW_POS X="420" Y="120" W="180" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_TITLE_3">
+		<WINDOW_POS X="620" Y="120" W="180" H="30" />
+	</CONTROL>
+	
+	<!-- Statistics Values -->
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_STAT_0">
+		<WINDOW_POS X="20" Y="150" W="180" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_STAT_1">
+		<WINDOW_POS X="220" Y="150" W="180" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_STAT_2">
+		<WINDOW_POS X="420" Y="150" W="180" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_STAT_3">
+		<WINDOW_POS X="620" Y="150" W="180" H="20" />
+	</CONTROL>
+	
+	<!-- Character Render Regions -->
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CHAR_RENDER_0">
+		<WINDOW_POS X="30" Y="180" W="160" H="200" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CHAR_RENDER_1">
+		<WINDOW_POS X="230" Y="180" W="160" H="200" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CHAR_RENDER_2">
+		<WINDOW_POS X="430" Y="180" W="160" H="200" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CHAR_RENDER_3">
+		<WINDOW_POS X="630" Y="180" W="160" H="200" />
+	</CONTROL>
+	
+	<!-- Rotation Buttons -->
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_LEFT_0">
+		<WINDOW_POS X="30" Y="390" W="20" H="20" />
+		<TEXTURE SizeX="256" SizeY="256">GUI_Buttons.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="20" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_RIGHT_0">
+		<WINDOW_POS X="170" Y="390" W="20" H="20" />
+		<TEXTURE SizeX="256" SizeY="256">GUI_Buttons.dds</TEXTURE>
+		<TEXTURE_POS X="20" Y="0" W="20" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_LEFT_1">
+		<WINDOW_POS X="230" Y="390" W="20" H="20" />
+		<TEXTURE SizeX="256" SizeY="256">GUI_Buttons.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="20" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_RIGHT_1">
+		<WINDOW_POS X="370" Y="390" W="20" H="20" />
+		<TEXTURE SizeX="256" SizeY="256">GUI_Buttons.dds</TEXTURE>
+		<TEXTURE_POS X="20" Y="0" W="20" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_LEFT_2">
+		<WINDOW_POS X="430" Y="390" W="20" H="20" />
+		<TEXTURE SizeX="256" SizeY="256">GUI_Buttons.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="20" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_RIGHT_2">
+		<WINDOW_POS X="570" Y="390" W="20" H="20" />
+		<TEXTURE SizeX="256" SizeY="256">GUI_Buttons.dds</TEXTURE>
+		<TEXTURE_POS X="20" Y="0" W="20" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_LEFT_3">
+		<WINDOW_POS X="630" Y="390" W="20" H="20" />
+		<TEXTURE SizeX="256" SizeY="256">GUI_Buttons.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="20" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_ROTATE_RIGHT_3">
+		<WINDOW_POS X="770" Y="390" W="20" H="20" />
+		<TEXTURE SizeX="256" SizeY="256">GUI_Buttons.dds</TEXTURE>
+		<TEXTURE_POS X="20" Y="0" W="20" H="20" />
+	</CONTROL>
+	
+	<!-- Character Info Text -->
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_NAME_0">
+		<WINDOW_POS X="30" Y="420" W="160" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CLASS_0">
+		<WINDOW_POS X="30" Y="440" W="160" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_0">
+		<WINDOW_POS X="30" Y="460" W="160" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_GUILD_0">
+		<WINDOW_POS X="30" Y="480" W="160" H="20" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_NAME_1">
+		<WINDOW_POS X="230" Y="420" W="160" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CLASS_1">
+		<WINDOW_POS X="230" Y="440" W="160" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_1">
+		<WINDOW_POS X="230" Y="460" W="160" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_GUILD_1">
+		<WINDOW_POS X="230" Y="480" W="160" H="20" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_NAME_2">
+		<WINDOW_POS X="430" Y="420" W="160" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CLASS_2">
+		<WINDOW_POS X="430" Y="440" W="160" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_2">
+		<WINDOW_POS X="430" Y="460" W="160" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_GUILD_2">
+		<WINDOW_POS X="430" Y="480" W="160" H="20" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_NAME_3">
+		<WINDOW_POS X="630" Y="420" W="160" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_CLASS_3">
+		<WINDOW_POS X="630" Y="440" W="160" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_SCHOOL_3">
+		<WINDOW_POS X="630" Y="460" W="160" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_WINNER_GUILD_3">
+		<WINDOW_POS X="630" Y="480" W="160" H="20" />
+	</CONTROL>
 	<CONTROL Local="Common" Id="PLAY_STATS_MULTIKILL_STREAK_STATIC_02">
 		<WINDOW_POS X="9" Y="373" W="100" H="20" />
 	</CONTROL>
@@ -8376,7 +8005,7 @@
 		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
 		<TEXTURE_POS X="80" Y="0" W="20" H="20" />
 	</CONTROL>
-	<CONTROL Local="Common" Id="MULTIKILL_MEGAKILL">
+	<CONTROL Local="Common" Id="MULTIKILL_MEGAKILL">S
 		<WINDOW_POS X="5" Y="334" W="172" H="19" />
 	</CONTROL>
 	<CONTROL Local="Common" Id="MULTIKILL_BLUELINE1">
@@ -9357,7 +8986,7 @@
 	
 	
 	
-	<CONTROL Local="Common" Id="GAME_ITEM_SHOP_ITEM_LIST_NODE_BACK">
+	<CONTROL Local="Common" Id="GAME_ITEM_SHOP_ITEM_LIST_NODE_BACK"> 
 		<WINDOW_POS X="0" Y="0" W="269" H="60" />
 	</CONTROL>
 	<CONTROL Local="Common" Id="GAME_ITEM_SHOP_ITEM_LIST_NODE_IMAGE">
@@ -9673,7 +9302,7 @@
 		<WINDOW_POS X="616" Y="468" W="25" H="20" />
 	</CONTROL>
 	
-	<CONTROL Local="Common" Id="ITEM_SHOP_ITEM_LIST_NODE_BACK">
+	<CONTROL Local="Common" Id="ITEM_SHOP_ITEM_LIST_NODE_BACK"> 
 		<WINDOW_POS X="0" Y="0" W="190" H="41" />
 	</CONTROL>
 	<CONTROL Local="Common" Id="ITEM_SHOP_ITEM_LIST_NODE_IMAGE">

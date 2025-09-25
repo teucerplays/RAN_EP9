@@ -90,7 +90,7 @@
 	
 	<!-- Combat Power Display (below level) -->
 	<CONTROL Local="Common" Id="BASIC_COMBAT_POWER_DISPLAY_TEXT">
-		<WINDOW_POS X="25" Y="78" W="380" H="15" />
+		<WINDOW_POS X="25" Y="78" W="500" H="15" />
 	</CONTROL>
 	
 <!-- HP Switch -->
